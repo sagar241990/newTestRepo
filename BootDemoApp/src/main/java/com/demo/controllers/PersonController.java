@@ -16,7 +16,7 @@ public class PersonController {
 
     @GetMapping("/persons")
     public ResponseEntity<?> getAllPersons() {
-    	System.out.println("hello");
+    	System.out.println("hello sagar");
         return ResponseEntity.ok(this.personService.getAllPerson());
     }
 }
